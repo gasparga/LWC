@@ -1,0 +1,25 @@
+import { LightningElement } from 'lwc';
+
+
+
+export default class Exe1 extends LightningElement {
+
+    visi = true;
+
+    empresa = "mamaco God";
+    cnpj = "412 021 000 1";
+    rua = "Rua dos Macacos, Bananal -SP";
+    produto = "Banana";
+    desc = "Banana NANICA";
+    prec = 10.50;
+
+    off1 = "2 Banana por R$ 20,00";
+    off2 = "5 Banana por R$ 30,00";
+
+    handleClick2() {
+
+
+        this.visi = !this.visi;
+
+    }
+}
