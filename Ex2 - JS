@@ -1,0 +1,17 @@
+import { LightningElement } from 'lwc';
+
+
+export default class Exe1 extends LightningElement {
+
+    visi = true;
+    visi1 = false;
+
+
+    handleClick() {
+
+        (this.visi = !this.visi);
+        (this.visi1 = !this.visi1);
+
+    }
+
+}
